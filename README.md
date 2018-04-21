@@ -1,5 +1,5 @@
 # declarative-router
-A declarative router that uses React Navigation under the hood. JSX, compound components, render props
+A declarative router that uses JSX, compound components, render props
 
 This is an exploration in designing a declarative router. It might become a real thing, or it might just remain a thought experiment.
 
