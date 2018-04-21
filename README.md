@@ -1,8 +1,20 @@
 # declarative-router
 A declarative router that uses React Navigation under the hood. JSX, compound components, render props
 
+This is an exploration in designing a declarative router. It might become a real thing, or it might just remain a thought experiment.
+
+Let me know what you think.
+
 Initial API
 https://gist.github.com/wolverineks/b4c074092f39fc9492a9e395414cc96f
+
+Development Preferences
+* Prefer changes that decrease responsibilities to changes that increase responsibilities
+* Prefer changes that reduce API surface area to changes that increase API surface area
+* Prefer changes that increase flexibility to changes that decrease flexibility
+
+Feature Description
+* `<Router>` / `<Scenes>` / `<Headers>` / `<Bodies>` / `<Tabs>` know how to apply styles to `this.props.children` such that they transition in / out of the "view window"
 
 ```javascript
 import { Bodies, Body, Drawers, Drawer, Headers, Header, Router, Route, Tabs, Tab } from 'declarative-router'
